@@ -18,17 +18,21 @@
 #### Redes Neuronales Implementadas Matemáticamente desde Cero
 - ✅ **Red Neuronal Multicapa** con forward/backward propagation completo
 - ✅ **Backpropagation** implementado matemáticamente (regla de la cadena)
-- ✅ **Funciones de Activación**: Sigmoid, Tanh, ReLU, LeakyReLU, ELU, Softmax, Linear
+- ✅ **Funciones de Activación**: 
+  - Clásicas: Sigmoid, Tanh, ReLU, LeakyReLU, ELU, Softmax, Linear
+  - Avanzadas: Softplus, Swish, HardSigmoid, HardSwish, GELU, PReLU, SELU, Mish
 - ✅ **Funciones de Pérdida**: MSE, Cross-Entropy, Binary Cross-Entropy
 - ✅ **Regularización**: L1, L2, Dropout
 - ✅ **Inicialización**: Xavier, He, Random
 
-#### Optimizadores Matemáticos
-- ✅ **SGD** (Stochastic Gradient Descent) con momentum
-- ✅ **Adam** (Adaptive Moment Estimation)
-- ✅ **RMSprop** (Root Mean Square Propagation)
-- ✅ **AdaGrad** (Adaptive Gradient)
-- ✅ **Nesterov** (Nesterov Accelerated Gradient)
+#### Optimizadores Matemáticos (40+ Implementados)
+- ✅ **Clásicos**: SGD, Momentum, RMSprop, Adam, AdaGrad, Nesterov
+- ✅ **Adaptativos Avanzados**: AdamW, Nadam, RAdam, AdaBelief, AdaMax, Yogi
+- ✅ **Especializados**: Lion, Ranger, RangerQH, Lamb, QHM
+- ✅ **Variantes**: Adadelta, Rprop, SignSGD, Adafactor, NovoGrad
+- ✅ **Híbridos**: Lookahead, AggMo, AdaMod, SMORMS3, AdaShift
+- ✅ **Con Restricciones**: AdaBound, AMSBound
+- ✅ **Otros**: Fromage, AddSign, PowerSign, ExtendedRprop
 
 #### Algoritmos de Optimización Matemática Avanzada
 - ✅ **Gradiente Descendente** con búsqueda de línea (Armijo, Wolfe)
@@ -489,5 +493,6 @@ Proprietary - Todos los derechos reservados
 ---
 
 **Kernel ML Engine** - Potencia matemática para machine learning en producción.
-#   K e r n e l - L i b  
+#   K e r n e l - L i b 
+ 
  

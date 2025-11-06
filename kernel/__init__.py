@@ -26,9 +26,11 @@ from kernel.methods.gaussian_process import GaussianProcess
 # Math (Algoritmos matemáticos avanzados)
 from kernel.math import (
     NeuralNetwork, Layer,
-    Sigmoid, Tanh, ReLU, Softmax, Linear,
+    Sigmoid, Tanh, ReLU, LeakyReLU, ELU, Softmax, Linear,
+    Softplus, Swish, HardSigmoid, HardSwish, GELU, PReLU, SELU, Mish,
     MeanSquaredError, CrossEntropy, BinaryCrossEntropy,
-    SGD, Adam, RMSprop,
+    SGD, Momentum, Adam, RMSprop, AdaGrad, Nesterov,
+    AdamW, Nadam, RAdam, AdaBelief, Lion, Ranger,
     GradientDescent, NewtonMethod, ConjugateGradient, BFGS
 )
 
@@ -51,9 +53,11 @@ __all__ = [
     "GaussianProcess",
     # Math
     "NeuralNetwork", "Layer",
-    "Sigmoid", "Tanh", "ReLU", "Softmax", "Linear",
+    "Sigmoid", "Tanh", "ReLU", "LeakyReLU", "ELU", "Softmax", "Linear",
+    "Softplus", "Swish", "HardSigmoid", "HardSwish", "GELU", "PReLU", "SELU", "Mish",
     "MeanSquaredError", "CrossEntropy", "BinaryCrossEntropy",
-    "SGD", "Adam", "RMSprop",
+    "SGD", "Momentum", "Adam", "RMSprop", "AdaGrad", "Nesterov",
+    "AdamW", "Nadam", "RAdam", "AdaBelief", "Lion", "Ranger",
     "GradientDescent", "NewtonMethod", "ConjugateGradient", "BFGS",
 ]
 
