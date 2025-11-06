@@ -1,0 +1,35 @@
+# Dependencias principales
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# API y web
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Computación GPU (opcional)
+# cupy-cuda11x>=12.0.0  # Descomentar según GPU
+# cupy-cuda12x>=12.0.0  # Para CUDA 12.x
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# Desarrollo
+black>=23.10.0
+flake8>=6.1.0
+mypy>=1.7.0
+
+# Documentación
+sphinx>=7.2.0
+sphinx-rtd-theme>=1.3.0
+
+# Utilidades
+psutil>=5.9.0  # Para benchmarks de memoria
+
